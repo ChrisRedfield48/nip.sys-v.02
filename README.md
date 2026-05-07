@@ -12,7 +12,7 @@
 
 <div align="center">
 
-**`nip.sys — portfolio v3.0`** &nbsp;·&nbsp; Web Developer &nbsp;·&nbsp; Russia → Belgrade
+**`nip.sys — portfolio v2.0`** &nbsp;·&nbsp; Web Developer &nbsp;·&nbsp; Russia → Belgrade
 
 [![Live](https://img.shields.io/badge/LIVE-chrisredfield48.github.io-c8f050?style=flat-square&labelColor=0c0c0c)](https://chrisredfield48.github.io)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
