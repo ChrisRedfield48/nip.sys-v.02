@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>nip.exe</title>
+<link rel="shortcut icon" href="image/изображение-Photoroom(1).png" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset3.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="prog"></div>
+
+<div class="desktop">
+
+  <!-- TITLEBAR -->
+  <div class="titlebar">
+    <div class="titlebar-left">
+      <div class="win-btns">
+        <div class="wb wb-r"></div>
+        <div class="wb wb-o"></div>
+        <div class="wb wb-g"></div>
+      </div>
+      <span class="win-title">nip.sys — portfolio v3.0</span>
+    </div>
+    <div class="titlebar-center">RUSSIA · RU</div>
+    <div class="titlebar-right">
+      <div class="status-dot"></div>
+      <span id="clock">00:00:00</span>
+    </div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="avatar-box">
+        <img src="image/изображение-Photoroom.png" alt="🦅" onerror="this.parentElement.textContent='🦅'">
+      </div>
+      <div class="sidebar-name">Никита Ип</div>
+      <div class="sidebar-role">Web Developer</div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#stack" class="nav-item active"><span class="ni">01</span> Стек</a>
+      <a href="#projects" class="nav-item"><span class="ni">02</span> Проекты</a>
+      <a href="#roadmap" class="nav-item"><span class="ni">03</span> Roadmap</a>
+      <a href="#github" class="nav-item"><span class="ni">04</span> GitHub</a>
+      <a href="#infra" class="nav-item"><span class="ni">05</span> Инфра</a>
+      <a href="#contacts" class="nav-item"><span class="ni">06</span> Контакты</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <a href="https://t.me/+QpzXesYhdSs1Mzcy" target="_blank" class="sb-btn">TG ↗</a>
+      <a href="https://github.com/ChrisRedfield48" target="_blank" class="sb-btn">GH ↗</a>
+    </div>
+  </aside>
+
+  <!-- MOBILE BOTTOM NAV -->
+  <nav class="mobile-nav">
+    <a href="#stack" class="mn-item active"><span class="mn-num">01</span><span>Стек</span></a>
+    <a href="#projects" class="mn-item"><span class="mn-num">02</span><span>Проекты</span></a>
+    <a href="#roadmap" class="mn-item"><span class="mn-num">03</span><span>Road</span></a>
+    <a href="#github" class="mn-item"><span class="mn-num">04</span><span>GitHub</span></a>
+    <a href="#infra" class="mn-item"><span class="mn-num">05</span><span>Инфра</span></a>
+    <a href="#contacts" class="mn-item"><span class="mn-num">06</span><span>Контакты</span></a>
+  </nav>
+
+  <!-- MAIN -->
+  <main class="main" id="main">
+
+    <!-- HERO -->
+    <div class="hero-panel">
+      <div class="hero-tagline">_ Доступен к работе</div>
+      <div class="hero-h1">Создаю<br>интерфейсы.</div>
+      <div class="hero-desc">Развиваю личные проекты, пишу код. Планирую трансфер в Европу. Open to Work.</div>
+      <div class="hero-badges">
+        <span class="badge hi">Web Dev</span>
+        <span class="badge">Open to Work</span>
+        <span class="badge">HTML / CSS</span>
+        <span class="badge">JavaScript</span>
+      </div>
+    </div>
+
+    <!-- STACK + ROADMAP -->
+    <div class="panel-row cols-2" id="stack">
+      <div class="panel reveal">
+        <div class="panel-label">Стек</div>
+        <div class="skill">
+          <div class="skill-top"><span>HTML / CSS / Figma</span><span class="skill-pct">85%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-w="85"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-top"><span>JavaScript</span><span class="skill-pct">15%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-w="15"></div></div>
+        </div>
+        <div class="skill" style="margin-bottom:20px">
+          <div class="skill-top"><span>Python / AI</span><span class="skill-pct">10%</span></div>
+          <div class="bar-track"><div class="bar-fill" data-w="10"></div></div>
+        </div>
+        <div class="log-wrap">
+          <div class="log-line"><span class="log-t">09:14</span><span class="log-ok">✓</span><span>HTML/CSS — освоен</span></div>
+          <div class="log-line"><span class="log-t">сейчас</span><span class="log-acc">→</span><span>JavaScript — в процессе</span></div>
+          <div class="log-line"><span class="log-t">скоро</span><span class="log-warn">○</span><span>React, Node.js — ожидание</span></div>
+        </div>
+      </div>
+
+      <div class="panel reveal" id="roadmap">
+        <div class="panel-label">Roadmap</div>
+        <div class="rm-item done">
+          <span class="rm-check done">✓</span>
+          <span class="rm-label">HTML &amp; CSS</span>
+          <span class="rm-pct">85%</span>
+        </div>
+        <div class="rm-item">
+          <span class="rm-check">○</span>
+          <span class="rm-label">JavaScript</span>
+          <span class="rm-pct">15%</span>
+        </div>
+        <div class="rm-item">
+          <span class="rm-check">○</span>
+          <span class="rm-label">React.js</span>
+          <span class="rm-pct">0%</span>
+        </div>
+        <div class="rm-item">
+          <span class="rm-check">○</span>
+          <span class="rm-label">Python &amp; AI</span>
+          <span class="rm-pct">10%</span>
+        </div>
+        <div class="rm-item">
+          <span class="rm-check">○</span>
+          <span class="rm-label">Node.js</span>
+          <span class="rm-pct">0%</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="panel-row cols-1" id="projects">
+      <div class="panel reveal">
+        <div class="panel-label">Проекты</div>
+        <a href="https://chrisredfield48.github.io/graphic-designer/" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">Graphic Designer</div>
+            <div class="proj-sub">chrisredfield48.github.io/graphic-designer</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">UI</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+        <a href="https://chrisredfield48.github.io/Cyberpunk/" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">Cyberpunk Promo</div>
+            <div class="proj-sub">chrisredfield48.github.io/Cyberpunk</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">Promo</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+        <a href="https://chrisredfield48.github.io/Createx/" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">Createx UI</div>
+            <div class="proj-sub">chrisredfield48.github.io/Createx</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">UI Kit</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+        <a href="https://chrisredfield48.github.io/Projects/" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">Projects Hub</div>
+            <div class="proj-sub">chrisredfield48.github.io/Projects</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">Hub</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+        <a href="https://chrisredfield48.github.io/python/" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">Python</div>
+            <div class="proj-sub">chrisredfield48.github.io/python</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">Python</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+        <a href="https://chrisredfield48.github.io" target="_blank" class="proj">
+          <div>
+            <div class="proj-title">NIP.SYS v3</div>
+            <div class="proj-sub">chrisredfield48.github.io</div>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            <span class="proj-tag">Portfolio</span>
+            <span class="proj-arrow">↗</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- GITHUB + INFRA -->
+    <div class="panel-row cols-2" id="github">
+      <div class="panel reveal">
+        <div class="panel-label">GitHub Stats</div>
+        <div style="display:flex;gap:8px;margin-bottom:16px">
+          <div class="gh-stat">
+            <span class="gh-num" id="gh-repos">—</span>
+            <span class="gh-lbl">Репозитории</span>
+          </div>
+          <div class="gh-stat">
+            <span class="gh-num" id="gh-followers">—</span>
+            <span class="gh-lbl">Подписчики</span>
+          </div>
+          <div class="gh-stat">
+            <span class="gh-num" id="gh-stars">—</span>
+            <span class="gh-lbl">Звёзды</span>
+          </div>
+        </div>
+        <a href="https://github.com/ChrisRedfield48" target="_blank" class="sb-btn" style="width:auto;padding:7px 12px;font-size:10px;">
+          github.com/ChrisRedfield48 ↗
+        </a>
+      </div>
+
+      <div class="panel reveal" id="infra">
+        <div class="panel-label">Инфраструктура</div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>MacBook Pro</span></div>
+          <span class="i-tag">Pro-series</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>Custom PC</span></div>
+          <span class="i-tag">RTX Build</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>VS Code + AI</span></div>
+          <span class="i-tag">Dev env</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot"></div><span>Homelab</span></div>
+          <span class="i-tag">Ubuntu/Docker</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>Локация</span></div>
+          <span class="i-tag">Russia → Belgrade</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACTS -->
+    <div class="panel-row cols-2" id="contacts">
+      <div class="panel reveal">
+        <div class="panel-label">Статус</div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>Open to Work</span></div>
+          <span class="i-tag">Доступен</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>Локация</span></div>
+          <span class="i-tag">Russia → Belgrade</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot on"></div><span>Часовой пояс</span></div>
+          <span class="i-tag">UTC+3</span>
+        </div>
+        <div class="infra-row">
+          <div class="infra-l"><div class="i-dot"></div><span>Релокация</span></div>
+          <span class="i-tag">Планируется</span>
+        </div>
+      </div>
+
+      <div class="panel reveal">
+        <div class="panel-label">Связь</div>
+        <a href="https://t.me/+QpzXesYhdSs1Mzcy" target="_blank" class="contact-row">
+          <span class="contact-icon">TG</span>
+          <span class="contact-label">Telegram</span>
+          <span class="contact-arrow">↗</span>
+        </a>
+        <a href="https://github.com/ChrisRedfield48" target="_blank" class="contact-row">
+          <span class="contact-icon">GH</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-arrow">↗</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div style="padding: 16px 20px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">
+      <span style="font-family:var(--mono);font-size:10px;color:var(--muted)">NIP.SYS © 2026 · Белград → Европа</span>
+      <span style="font-family:var(--mono);font-size:9px;color:var(--muted);letter-spacing:2px;opacity:0.3">↑↑↓↓←→←→BA</span>
+    </div>
+
+  </main>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
