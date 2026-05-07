@@ -127,7 +127,7 @@ nip.sys/
 | 03 | Createx UI | UI Kit | [↗](https://chrisredfield48.github.io/Createx/) |
 | 04 | Projects Hub | Hub | [↗](https://chrisredfield48.github.io/Projects/) |
 | 05 | Python | Python | [↗](https://chrisredfield48.github.io/python/) |
-| 06 | NIP.SYS v3 | Portfolio | [↗](https://chrisredfield48.github.io) |
+| 06 | NIP.SYS v3 | Portfolio | [↗](https://chrisredfield48.github.io/ip/) |
 
 ---
 
